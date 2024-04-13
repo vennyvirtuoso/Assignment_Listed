@@ -2,7 +2,7 @@ import SwiftUI
 import SwiftUICharts
 
 struct ContentView: View {
-    @State private var inputToken: String = "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MjU5MjcsImlhdCI6MTY3NDU1MDQ1MH0.dCkW0ox8tbjJA2GgUx2UEwNlbTZ7Rr38PVFJevYcXFI"
+    @State private var inputToken: String = "Bearer <Your Token>"
     @State private var storedToken: String = ""
     @State private var inArray: [Double] = []
     @State private var greeting: String = ""
